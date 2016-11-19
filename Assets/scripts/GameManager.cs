@@ -28,8 +28,8 @@ public class GameManager : MonoBehaviour {
 
 	// TODO - Remove when finished testing
 	private void Update () {
-		if (Input.GetKeyDown(KeyCode.N)) {
-			MoveToNextPlayer();
+		if (Input.GetKeyDown (KeyCode.N)) {
+			MoveToNextPlayer ();
 		}
 	}
 
